@@ -1,0 +1,130 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.header {
+  height: 7vh;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: auto;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.356);
+  display: flex;
+}
+
+.image-back {
+  width: auto;
+}
+
+.main-back {
+  top: 0;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  width: 135px;
+  height: 55px;
+  margin-left: 110px;
+  margin: auto;
+}
+
+.header-title {
+  font-size: 20px;
+  font-family: "Krub";
+  font-style: normal;
+  color: #000000;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+.line {
+  border-left: 2px solid;
+  color: #000000;
+  padding-left: 30px;
+}
+
+.location {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+.main-text {
+  position: absolute;
+  width: 1600px;
+  height: 205px;
+  left: 160px;
+  top: 190px;
+  font-family: "Keania One";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 107px;
+  color: #ffffff;
+}
+
+.second-text {
+  position: absolute;
+  width: 1005px;
+  height: 65px;
+  left: 160px;
+  top: 450px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 61px;
+  color: #ffffff;
+}
+
+.text-border {
+  position: absolute;
+  width: 450px;
+  height: 39px;
+  left: 160px;
+  top: 600px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 4px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.p {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 40px;
+}
