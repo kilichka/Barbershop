@@ -124,7 +124,14 @@ a {
   text-align: center;
 }
 
-.p {
+.btn {
+  background-color: rgba(28, 28, 28, 0);
   border: 2px solid rgb(255, 255, 255);
   padding: 40px;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid rgba(0, 0, 0, 0);
 }
